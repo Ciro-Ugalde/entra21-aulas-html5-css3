@@ -1,0 +1,30 @@
+div {
+    color: rgb(211, 211, 211) !important;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+a {
+    color: red;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.italico {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#enviar {
+    background-color: darkblue;
+}
+
+#limpar {
+    background-color: white;
+}
+
+body{
+    background-color: rgb(201, 200, 199);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="/img/contact.png" type="image/png">
+    <link rel="stylesheet" href="/site.css">
+</head>
+
+<body class="grid grid-template">
+
+    <header class="item header">
+        <img src="/img/contact.png" alt="contato">
+        Contato
+    </header>
+
+    <aside class="item sidenav">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Início</a></li>
+                <li><a href="/cv.html">Currículo</a></li>
+                <li class="selecionado"><a href="/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="item content">
+        <h2>Entre em contato</h2>
+        <p><b>Redes Sociais:</b></p>
+        <a href="https://www.linkedin.com/in/ciro-damasco-ugalde-151756220/"> Linkedin</a>
+        <a href="https://www.instagram.com/cirougalde/"> Instagram</a>
+        <br />
+        <br />
+        <form action="mailto:ciro.daniel.ugalde@gmail.com?subject=Personal contact" method="post" enctype="text/plain">
+            <b><label for="nome"> Nome: </label></b>
+            <input type="text" name="nome" id="nome" placeholder="Insira seu nome" required>
+            <br />
+            <b><label for="telefone"> Telefone: </label></b>
+            <input type="tel" telefone="telefone" id="telefone" placeholder="Insira seu telefone" required>
+            <br />
+            <label for="assunto"> Assunto: </label>
+            <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+            <br />
+            <input type="reset" value="Limpar"
+                style="background-color: rgb(226, 224, 224); border-radius: 3px; padding: 2px;">
+            <input type="submit" style="background-color: rgb(66, 160, 248); border-radius: 3px;">
+            <hr>
+            <a
+                href="https://mail.google.com/mail/u/0/?fs=1&to=ciro.daniel.ugalde@gmail.com&su=Contato+-+via+site+pessoal&body=Ol%C3%A1+Ciro+Tudo+bem?&tf=cm">
+                Prefere gmail?</a>
+        </form>
+
+
+    </main>
+
+    <footer class="footer">
+        <hr />
+    </footer>
+
+</body>
+
+</html>

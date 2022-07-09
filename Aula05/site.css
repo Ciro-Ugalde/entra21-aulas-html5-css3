@@ -1,0 +1,91 @@
+.grid {
+
+    display: grid;
+    margin: 0 auto;
+    border: 2px solid rgb(41, 6, 243);
+    gap: 4px;
+}
+
+.header {
+
+    grid-area: header;
+    padding: 4px;
+    background-image: linear-gradient(darkgray, white);
+}
+
+.content {
+
+    grid-area: content;
+    padding: 8px;
+    background-image: linear-gradient(darkgray, white);
+    height: 80vh;
+}
+
+.sidenav {
+
+    grid-area: sidenav;
+    height: 140vh;
+    background-image: linear-gradient(darkgray, white);
+
+}
+
+.footer {
+    
+    grid-area: footer;
+}
+
+footer::after {
+    content: "© Copyright 2022 ciro-ugalde.github.io  - Todos os direitos reservados";
+}
+
+.grid-template {
+    grid-template-areas:
+
+        "header header header header header header header header header header header header"
+        "sidenav content content content content content content content content content content content"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.item {
+    font-size: clamp(1em, 1em + 1vw, 1.5em)
+}
+
+header img {
+    width: 32px;
+    padding: 0px;
+
+}
+
+nav ul {
+    padding: 10px;
+    margin: 0px;
+    list-style: none;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+nav ul li {
+
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: darkgray;
+
+}
+
+nav ul li:hover {
+
+    background-color: lightgray;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.selecionado {
+    background-color: gray;
+    
+}

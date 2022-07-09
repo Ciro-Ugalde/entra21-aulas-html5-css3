@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Componentes Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class="container-fluid bg-secondary">
+    <p>he he he he</p>
+
+    <div class="row bg-primary">
+        <div class="col bg-secondary"> Linha1</div>
+        <div class="col"> Na mesma linha</div>
+        <div class="col bg-success"> Eu também</div>
+    </div>
+
+    <div class="row bg-danger">
+        <div class="col-2 bg-warning"> Linha 2</div>
+        <div class="col"> Na mesma linha</div>
+    </div>
+
+    <div class="row bg-info">
+        <div class="col-1 bg-dark text-white"> Linha 3</div>
+        <div class="col"> Outra</div>
+        <div class="col-3 bg-light"> Mais um</div>
+        <div class="col"> E de novo</div>
+    </div>
+
+    <div class="row">
+        <div class="col bg-dark"></div>
+        <div class="col-1">Meio</div>
+        <div class="col bg-dark"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-2 bg-danger"> Texto</div>
+        <div class="col-1 bg-warning"> Texto</div>
+    </div>
+
+    <div class="row">
+        <!-- div.alert.alert-cor -->
+        <div class="alert alert-primary"> Primary Alert</div>
+        <div class="alert alert-secondary"> Secondary Alert</div>
+        <div class="alert alert-danger"> Danger Alert</div>
+        <div class="alert alert-dark"> Dark Alert</div>
+        <div class="alert alert-info"> Info Alert</div>
+        <div class="alert alert-success"> Success Alert</div>
+        <div class="alert alert-warning"> Warning Alert</div>
+        <div class="alert alert-light"> Light Alert</div>
+        <div class="alert alert-primary alert-dismissible fade show">
+            <strong> Acredite</strong> Para fechar, clique no X
+            <button type="type butoon" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    </div>
+
+    <div class="row bg-light">
+        <div class="col">
+            <button class="btn btn-primary"> Botão Primary</button>
+            <button class="btn btn-secondary"> Botão Secondary</button>
+            <button class="btn btn-danger"> Botão Danger</button>
+            <button class="btn btn-dark"> Botão Dark</button>
+            <button class="btn btn-info"> Botão Info</button>
+            <button class="btn btn-success"> Botão Success</button>
+            <button class="btn btn-warning"> Botão Warning</button>
+            <button class="btn btn-light"> Botão Light</button>
+        </div>
+        <div class="col">
+            <button class="btn btn-outline-primary"> Botão Outline Primary</button>
+            <button class="btn btn-outline-secondary"> Botão Outline Secondary</button>
+            <button class="btn btn-outline-danger"> Botão Outline Danger</button>
+            <button class="btn btn-outline-dark"> Botão Outline Dark</button>
+            <button class="btn btn-outline-info"> Botão Outline Info</button>
+            <button class="btn btn-outline-success"> Botão Outline Success</button>
+            <button class="btn btn-outline-warning"> Botão Outline Warning</button>
+            <button class="btn btn-outline-light"> Botão Outline Light</button>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <h1>Produto <span class="badge bg-danger"> Acabando</span></h1>
+
+            <button type="button" class="btn btn-primary me-3">
+                Notificações <span class="badge bg-danger"> 99+</span></button>
+            <button type="button" class="btn btn-primary position-relative mt-3 ms-3">
+                Notificações
+                <span class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill">
+                    99+</span></button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-5">
+            <div class="card">
+                <div class="card-header">Título</div>
+                <div class="card-body">Conteúdo</div>
+                <div class="card-footer">Rodapé</div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-4">
+            <div class="card">
+                <form>
+                    <div class="card-header">Login</div>
+                    <div class="card-body">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Informe seu email" class="form-control"
+                            required>
+
+                        <label for="senha">senha</label>
+                        <input value="123" type="password" name="senha" id="senha" placeholder="Informe sua senha"
+                            class="form-control" required>
+                    </div>
+                    <div class="card-footer">
+                        <input value="Limpar" type="reset" class="btn btn-secondary"></input>
+                        <input value="Logar" type="submit" class="btn btn-success"></input>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
